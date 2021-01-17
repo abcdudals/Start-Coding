@@ -8,7 +8,19 @@ const menus = [
       price: "3000",
       type: "coffee",
       makingTime: 40,
-    },
+    },    {
+        id: 102,
+        name: "라떼",
+        price: "3500",
+        type: "coffee",
+        makingTime: 30,
+      },    {
+        id: 103,
+        name: "오랜지 주스",
+        price: "4000",
+        type: "non coffee",
+        makingTime: 120,
+      },
   ];
   // 재고
   const ingredients = {
@@ -45,3 +57,5 @@ const menus = [
     // 여기에 코드를 작성하세요!
     document.querySelector(".total").innerHTML = totalAmount + " 잔";
   }
+
+  console.log("test");
